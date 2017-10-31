@@ -1,0 +1,11 @@
+{
+    "port": 3000,
+    "mongo" : {
+        "user" : "",
+        "password" : "",
+        "host" : "localhost",
+        "port" : 27017,
+        "db" : "chamesh",
+        "auth" : ""
+    }
+}
