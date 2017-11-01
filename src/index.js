@@ -55,11 +55,11 @@ app.use((err, req, res, next) => {
 });
 
 // Connect to mongo then starts the server
-monogConn.connect(config.mongo).then(()=>{
+// monogConn.connect(config.mongo).then(()=>{
   app.server = http.createServer(app)
   app.server.listen(process.env.PORT || config.port, ()=>{
     console.log(`Server is up and listenning on port ${app.server.address().port}`)
   })
-}).catch((err)=>{
-  console.error(err)
-})
+// }).catch((err)=>{
+//   console.error(err)
+// })
