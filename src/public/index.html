@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" dir="rtl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Map</title>
+    <title>חמש</title>
 
-    <script src="/assets/javascripts/angular.min.js"></script>
-    <script src="/app.js"></script>
+    <!-- Load google maps api synchronicly -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhgf2theWJpCgWy3SGRZCJ7toj9zNn5VI">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
 </head>
 <body ng-app='app'>
     {{1+1}}
+
+    <root></root>
     <!-- <div name="map" id="map"></div> -->
     <!-- <script src="/javascripts/map.js"></script> -->
+
+    <script src="/assets/javascripts/angular.min.js"></script>
+    <script src="/assets/javascripts/angular-animate.min.js"></script>
+    <script src="/assets/javascripts/angular-aria.min.js"></script>
+    <script src="/assets/javascripts/angular-messages.min.js"></script>
+    <script src="/assets/javascripts/angular-material.min.js"></script>
+
+    <script src="/app.js"></script>
+    <script src="/app/root.component.js"></script>
+    <script src="/app/map/map.component.js"></script>
+    <script src="/app/map/map.service.js"></script>
 </body>
 </html>

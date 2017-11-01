@@ -1,6 +1,6 @@
 {
-  "name": "map-test-web",
-  "version": "0.0.0",
+  "name": "chames-campaign",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./src/"
